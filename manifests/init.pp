@@ -28,8 +28,6 @@ class student {
   # Add helper scripts
   include student::scripts
 
-  # Yum related config
-  include student::repos
 
   # Clean up extranous build stuff
   include student::cleanup
