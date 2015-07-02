@@ -31,9 +31,6 @@ class student {
   # Yum related config
   include student::repos
 
-  # Network setttings
-  include student::network
-  
   # Clean up extranous build stuff
   include student::cleanup
 }
