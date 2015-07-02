@@ -6,7 +6,4 @@ class student {
   # create local repos
   include localrepo
 
-  # Add helper scripts
-  include student::scripts
-
 }
