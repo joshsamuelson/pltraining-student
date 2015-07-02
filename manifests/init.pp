@@ -31,9 +31,6 @@ class student {
   # Yum related config
   include student::repos
 
-  # Ruby related settings
-  include student::ruby_settings
-
   # Network setttings
   include student::network
   
